@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Henrique</title>
+    <title>Portfólio Pedro Henrique</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Dev Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- CSS do projeto-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Pedro Henrique</h2>
+            <img id= "bio-image" src="img/pedro.jpg" alt="Pedro Henrique">
+            <p>Olá, meu nome é Pedro Henrique e eu sou <span class="highlight">Desenvolvedor back-end</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <Ul id="social-container">
+                <li><a href="https://www.facebook.com/profile.php?id=100003225845845" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/pedro-henrique-araujo-cardoso-21aa6b263/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/pedro.h786/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </Ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:pedro.cardoso@acad.ifma.edu.br">pedro.cardoso@acad.ifma.edu.br</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Pedro Henrique</h1>
+            <p id="title"><span class="highlight">Desenvolvedor back-end</span></p>
+            <p class="description">Atualmente estou cursando Ciência da Computação no <span class="highlight"> IFMA - Campus Imperatriz</span> e através dos estudos da faculdade venho estudando mais a fundo a respeito do <span class="highlight"> Back-end.</span></p>
+            <p class="description">atuo tanto no Back-end como no Front-end, porém pretendo me especializar no  <span class="highlight"> Back-end</span> pois ela está mais relacionado com a resolução do programa. </p>
+            <a href="https://github.com/pedro31415" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas skills</h2>
+            <p class="description">Conheça as tecnologia que eu domino</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-c-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-github-original"></i>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-vscode-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
     
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
